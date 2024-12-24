@@ -21,7 +21,7 @@ opentelemetry-instrument \
 OTEL_SERVICE_NAME=weather-central \
 OTEL_EXPORTER_OTLP_ENDPOINT=https://otlp.nr-data.net:4317 \
 OTEL_PYTHON_LOGGING_AUTO_INSTRUMENTATION_ENABLED=true \
-OTEL_EXPORTER_OTLP_HEADERS=api-key=***REMOVED*** \
+OTEL_EXPORTER_OTLP_HEADERS=api-key=<INGEST_LICENSE> \
 opentelemetry-instrument \
     --traces_exporter console,otlp \
     --metrics_exporter console,otlp \
